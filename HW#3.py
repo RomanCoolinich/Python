@@ -117,7 +117,5 @@ if currency_convertor:
         currency_result = target_currency_amount * usd_byn_rate
         print(target_currency_amount, byn_item, "=", currency_result, byn_item)
     else: print("Unknown currency")
-
-
 else:
     print("Переменная currency_convertor = ", item_3)
